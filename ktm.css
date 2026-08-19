@@ -1,0 +1,385 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main-navbar {
+    height: 150px;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    position: sticky;
+    z-index: 1;
+}
+
+.menue-bar i {
+    color: white;
+}
+
+.right-side-contant i {
+    color: #FF6600;
+    margin: 10px;
+}
+
+.logo {
+    height: 150px;
+    width: 170px;
+    margin: 10px;
+}
+
+/* Hero section styling */
+.hero-contant{
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1; 
+}
+.hero-contant p {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+  
+}
+.hero-contant h1{
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
+.btn-1{
+
+    height: 4rem;
+        width: 14rem;
+        color: rgb(240, 235, 235);
+        font-weight: 600;
+        font-size: large;
+        background-color: #FF6600;
+        border: none;
+        margin-top: 20px;
+}
+
+.carousel-inner {
+    /* background-image: url(Media/ktm-media/M-1.jfif); */
+    /* background-size: cover; */
+    height: 650px;
+    margin-top: -30%;
+    border-bottom: 3px solid #FF6600;
+}
+
+/* Black section syling */
+.black-sec {
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.black-sec a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.black-sec i {
+    font-size: 40px;
+}
+
+.black-sec div:hover {
+    color: #FF6600;
+
+
+}
+
+.recent-sec {
+    margin: 2rem;
+}
+
+.recent-sec h1 {
+    margin: 5rem;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    font-display: block;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    height: 450px;
+    width: 300px;
+    /* background-color: black; */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.box:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.box h3 {
+    color: black;
+    font-size: xx-large;
+}
+
+.box h4 {
+    color: #FF6600;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.box img {
+    /* width: 350px; */
+    height: 180px;
+    margin-bottom: 15px;
+}
+
+.box-btn {
+    color: white;
+    height: 3rem;
+    width: 15rem;
+    font-weight: 700;
+    background-color: #FF6600;
+    margin-top: 20px;
+    border: none;
+}
+
+/* Ride section */
+.ride-contant {
+    height: 500px;
+    background-image: url(Media/ktm-media/Ride.jfif);
+    background-size: cover;
+    margin: 2rem;
+}
+
+.contant {
+    color: white;
+    text-align: center;
+    padding-top: 10rem;
+    padding-left: 40rem;
+    font-weight: 700;
+    font-size: large;
+    font-family: monospace;
+    margin-top: 12rem;
+}
+
+.contant h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.btn-2 {
+    height: 4.8rem;
+    width: 15rem;
+    color: white;
+    font-weight: 700;
+    font-size: x-large;
+    background-color: #FF6600;
+    border: none;
+    margin-left: 7rem;
+    margin-top: 20px;
+}
+
+/* Discover image section */
+.discover-sec h1 {
+    margin: 5rem;
+    font-weight: 900;
+    font-size: 55px;
+
+
+}
+
+.discover-contant-sec {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-cards {
+    background-color: #FF6600;
+    height: 380px;
+    width: 280px;
+    text-align: center;
+    font-size: small;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.img-cards a {
+    text-decoration: none;
+    color: black;
+}
+
+.img-cards img {
+    height: 280px;
+    width: 280px;
+    padding-bottom: 25px;
+}
+
+/* ktm offroad */
+.ktm-offroad {
+    background-image: url(Media/ktm-media/offroad.jfif);
+    background-size: cover;
+    height: 480px;
+    margin-top: 5rem;
+    margin: 30px;
+    color: white;
+    text-align: right;
+    padding: 10rem;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn-3 {
+    height: 4.8rem;
+    width: 15rem;
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+    background-color: #FF6600;
+    border: none;
+    margin-left: 7rem;
+    margin-top: 20px;
+}
+
+.btn-3:hover {
+    border: 2px solid #FF6600;
+    color: #FF6600;
+    /* opacity:0.3; */
+}
+
+.ktm-offroad h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 57px;
+    font-weight: 800;
+
+}
+
+/* last section */
+.last-section {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.power-products {
+    background-image: url(Media/ktm-media/procuct-1.jfif);
+    background-size: cover;
+    height: 380px;
+    width: 590px;
+
+}
+
+.power-products h1 {
+    color: white;
+    text-align: center;
+    padding-top: 7rem;
+    font-size: 4rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 5rem;
+}
+
+.power-products h1:hover {
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.power-products-2 {
+    background-image: url(Media/ktm-media/procuct-2.jfif);
+    background-size: cover;
+    height: 380px;
+    width: 590px;
+}
+
+.power-products-2 h1 {
+    color: white;
+    text-align: center;
+    padding-top: 7rem;
+    font-size: 4rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 5rem;
+
+}
+
+.power-products-2 h1:hover {
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+}
+
+/* Footer */
+.footer-sec {
+    color: white;
+    background-color: black;
+    height: 500px;
+    margin-top: 40px;
+    padding-top: 4rem;
+    padding-right: 3rem;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.footer-sec ul p {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.footer-sec li {
+    list-style: none;
+    margin: 10px;
+}
+
+.footer-sec li a {
+    text-decoration: none;
+    color: rgb(214, 207, 207);
+    font-size: large;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-sec a:hover {
+    color: #FF6600;
+}
+
+.social-icon {
+    display: flex;
+
+}
+
+.social-icon li i {
+    font-size: 25px;
+
+}
+
+.footer-2 {
+    height: 100px;
+    background-color: black;
+    color: white;
+    border-top: 2px solid rgb(130, 124, 124);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
